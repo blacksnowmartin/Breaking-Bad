@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Who directed the iconic film 'Pulp Fiction'?",
+            "options": [
+                "Quentin Tarantino",
+                "Martin Scorsese",
+                "Christopher Nolan",
+                "Stanley Kubrick"
+            ],
+            "answer": "Quentin Tarantino"
+        },
+        {
+            "question": "Which director is known for creating the 'Dark Knight' trilogy?",
+            "options": [
+                "Christopher Nolan",
+                "Steven Spielberg",
+                "Tim Burton",
+                "Zack Snyder"
+            ],
+            "answer": "Christopher Nolan"
+        },
+        {
+            "question": "Who directed the science fiction classic 'Blade Runner'?",
+            "options": [
+                "George Lucas",
+                "Steven Spielberg",
+                "Ridley Scott",
+                "James Cameron"
+            ],
+            "answer": "Ridley Scott"
+        },
+        {
+            "question": "Which director is famous for his work on 'The Godfather' trilogy?",
+            "options": [
+                "Francis Ford Coppola",
+                "Alfred Hitchcock",
+                "Brian De Palma",
+                "Martin Scorsese"
+            ],
+            "answer": "Francis Ford Coppola"
+        },
+        {
+            "question": "Who directed the fantasy epic 'The Lord of the Rings' trilogy?",
+            "options": [
+                "Steven Spielberg",
+                "Peter Jackson",
+                "James Cameron",
+                "Guillermo del Toro"
+            ],
+            "answer": "Peter Jackson"
+        },
+        {
+            "question": "Which director is known for his mind-bending films like 'Inception' and 'Interstellar'?",
+            "options": [
+                "Christopher Nolan",
+                "Quentin Tarantino",
+                "David Fincher",
+                "Denis Villeneuve"
+            ],
+            "answer": "Christopher Nolan"
+        },
+        {
+            "question": "Who directed the classic horror film 'Psycho'?",
+            "options": [
+                "Alfred Hitchcock",
+                "John Carpenter",
+                "Wes Craven",
+                "Stanley Kubrick"
+            ],
+            "answer": "Alfred Hitchcock"
+        },
+        {
+            "question": "Which director is associated with the 'Star Wars' franchise?",
+            "options": [
+                "Steven Spielberg",
+                "George Lucas",
+                "James Cameron",
+                "J.J. Abrams"
+            ],
+            "answer": "George Lucas"
+        },
+        {
+            "question": "Who directed the acclaimed film 'Schindler's List'?",
+            "options": [
+                "Quentin Tarantino",
+                "Steven Spielberg",
+                "Martin Scorsese",
+                "Roman Polanski"
+            ],
+            "answer": "Steven Spielberg"
+        },
+        {
+            "question": "Which director is known for his work on 'The Shawshank Redemption'?",
+            "options": [
+                "Frank Darabont",
+                "Martin Scorsese",
+                "David Fincher",
+                "Coen Brothers"
+            ],
+            "answer": "Frank Darabont"
+        }
+    ]
+}

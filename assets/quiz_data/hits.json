@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "Which actor portrayed Iron Man in the Marvel Cinematic Universe?",
+            "options": [
+                "Chris Evans",
+                "Robert Downey Jr.",
+                "Chris Hemsworth",
+                "Mark Ruffalo"
+            ],
+            "answer": "Robert Downey Jr."
+        },
+        {
+            "question": "In the movie 'Titanic,' who played the character Jack Dawson?",
+            "options": [
+                "Leonardo DiCaprio",
+                "Matt Damon",
+                "Johnny Depp",
+                "Brad Pitt"
+            ],
+            "answer": "Leonardo DiCaprio"
+        },
+        {
+            "question": "Which film features a character named Hannibal Lecter and the famous line 'Hello, Clarice'?",
+            "options": [
+                "The Silence of the Lambs",
+                "Se7en",
+                "American Psycho",
+                "Psycho"
+            ],
+            "answer": "The Silence of the Lambs"
+        },
+        {
+            "question": "Who directed the 2019 film 'Joker'?",
+            "options": [
+                "Christopher Nolan",
+                "Todd Phillips",
+                "David Fincher",
+                "Martin Scorsese"
+            ],
+            "answer": "Todd Phillips"
+        },
+        {
+            "question": "Which animated film follows the story of a young lion named Simba?",
+            "options": ["Finding Nemo", "The Lion King", "Toy Story", "Shrek"],
+            "answer": "The Lion King"
+        },
+        {
+            "question": "Which movie features a group of superheroes, including Captain America, Thor, and Hulk, teaming up to save the world?",
+            "options": [
+                "The Avengers",
+                "Justice League",
+                "X-Men: Days of Future Past",
+                "Guardians of the Galaxy"
+            ],
+            "answer": "The Avengers"
+        },
+        {
+            "question": "In the film 'Jurassic Park,' what kind of creatures do the characters encounter?",
+            "options": ["Aliens", "Zombies", "Dinosaurs", "Robots"],
+            "answer": "Dinosaurs"
+        },
+        {
+            "question": "Who played the character of Neo in 'The Matrix' trilogy?",
+            "options": [
+                "Keanu Reeves",
+                "Will Smith",
+                "Tom Cruise",
+                "Brad Pitt"
+            ],
+            "answer": "Keanu Reeves"
+        },
+        {
+            "question": "Which movie features a ship called the Black Pearl and a character named Captain Jack Sparrow?",
+            "options": [
+                "Pirates of the Caribbean: The Curse of the Black Pearl",
+                "Master and Commander",
+                "Treasure Island",
+                "Sea Biscuit"
+            ],
+            "answer": "Pirates of the Caribbean: The Curse of the Black Pearl"
+        },
+        {
+            "question": "Who directed the film 'Avatar'?",
+            "options": [
+                "Christopher Nolan",
+                "James Cameron",
+                "Peter Jackson",
+                "Ridley Scott"
+            ],
+            "answer": "James Cameron"
+        }
+    ]
+}

@@ -1,102 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Breaking Bad Trivia Game</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-    .question {
-        margin-bottom: 20px;
-    }
-    .choices button {
-        display: block;
-        margin-top: 10px;
-        padding: 10px;
-        width: 200px;
-        background-color: #f0f0f0;
-        border: 1px solid #ccc;
-        cursor: pointer;
-    }
-    .choices button:hover {
-        background-color: #ddd;
-    }
-    .correct {
-        background-color: lightgreen;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>FilmIQ</title>
+    <link rel="icon" href="assets/images/icons8-clapperboard-48.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <script src="https://kit.fontawesome.com/513080e5af.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+    <nav class="navbar">
+        <div class="quiz-title-container">
+            <h1 class="quiz-title"><i class="fa-solid fa-film"></i><span>Movie quiz</span></h1>
+        </div>
+        <div class="theme-switch-container">
+            <i class="fa-regular fa-sun fa-xl"></i>
+            <div class="form-check form-switch toggle-theme-btn">
+                <input class="form-check-input" type="checkbox" role="switch" id="themeSwitcher" checked>
+            </div>
+            <label class="form-check-label" for="themeSwitcher"><i class="fa-regular fa-moon fa-xl"></i></label>
+        </div>
+    </nav>
 
-<div class="question" id="question"></div>
-<div class="choices" id="choices"></div>
-<button onclick="nextQuestion()">Next Question</button>
 
-<script>
-    const questions = [
-        {
-            question: "What is the real name of Walter White?",
-            choices: ["Walter Black", "Walter Gray", "Walter White", "Walter Blue"],
-            correctAnswer: "Walter White"
-        },
-        {
-            question: "Who is Jesse Pinkman's partner in cooking meth?",
-            choices: ["Saul Goodman", "Gus Fring", "Mike Ehrmantraut", "Walter White"],
-            correctAnswer: "Walter White"
-        },
-        {
-            question: "What is the nickname of Gustavo Fring's restaurant?",
-            choices: ["The Los Pollos Hermanos", "The Blue Sky", "The Heisenberg", "The Crystal Ship"],
-            correctAnswer: "The Los Pollos Hermanos"
-        }
-    ];
+    <main class="main-content welcome">
+        <div class="heading-section">
+            <h1>Welcome to <br><span>FilmIQ - the movie quiz app</span></h1>
+            <h3><i>Pick a topic to get started.</i></h3>
+        </div>
 
-    let currentQuestionIndex = 0;
+        <div class="topic-selection">
+            <button class="option-1 option" data-name="classics"><i class="fa-solid fa-film"></i><span>Timeless
+                    Classics</span></button>
+            <button class="option-2 option" data-name="hits"><i class="fa-solid fa-gun"></i><span>Blockbuster
+                    Hits</span></button>
+            <button class="option-3 option" data-name="quotes"><i class="fa-solid fa-comment-dots"></i><span>Movie
+                    quotes</span></button>
+            <button class="option-4 option" data-name="directors"><i
+                    class="fa-solid fa-clapperboard"></i><span>Director's
+                    cut</span></button>
+            <button class="take-quiz-btn submit">Take quiz</button>
+        </div>
 
-    function showQuestion(questionIndex) {
-        const questionElement = document.getElementById("question");
-        const choicesElement = document.getElementById("choices");
-        
-        questionElement.textContent = questions[questionIndex].question;
-        choicesElement.innerHTML = "";
 
-        for (let i = 0; i < questions[questionIndex].choices.length; i++) {
-            const choice = questions[questionIndex].choices[i];
-            const button = document.createElement("button");
-            button.textContent = choice;
-            button.addEventListener("click", function() {
-                checkAnswer(questionIndex, i);
-            });
-            choicesElement.appendChild(button);
-        }
-    }
+    </main>
 
-    function checkAnswer(questionIndex, choiceIndex) {
-        const correctAnswer = questions[questionIndex].correctAnswer;
-        const selectedAnswer = questions[questionIndex].choices[choiceIndex];
+    <main class="main-content question-section">
+        <div class="heading-section">
+            <h3>Question <span></span></h3>
+            <h2 class="question-text"></h2>
+        </div>
 
-        if (selectedAnswer === correctAnswer) {
-            document.querySelectorAll(".choices button")[choiceIndex].classList.add("correct");
-        }
+        <div class="answers">
+            <button class="option">Option 1</button>
+            <button class="option">Option 2</button>
+            <button class="option">Option 3</button>
+            <button class="option">Option 4</button>
+            <button class="confirm-answer submit">Submit Answer</button>
+            <button class="next-ques submit">Next</button>
+        </div>
+    </main>
 
-        document.querySelectorAll(".choices button").forEach(button => {
-            button.disabled = true; // Disable buttons after an answer is selected
-        });
-    }
-
-    function nextQuestion() {
-        currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
-            showQuestion(currentQuestionIndex);
-        } else {
-            alert("End of trivia questions. Thanks for playing!");
-        }
-    }
-
-    showQuestion(currentQuestionIndex);
-</script>
-
+    <main class="main-content result">
+        <div class="heading-section">
+            <h3>You scored</h3>
+            <h2 class="score">10</h2>
+            <h3>out of 10</h3>
+            <button class="home submit"><i class="fa-solid fa-house"></i></button>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
