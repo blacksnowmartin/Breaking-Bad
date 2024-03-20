@@ -49,17 +49,29 @@ function displayQuestion() {
     });
 }
 
+function displayResults() {
+    questionEl.textContent = `You scored ${score} out of ${questions.length} questions.`;
+    choicesEl.innerHTML = ""; // Clear choices
+    nextBtn.style.display = "none"; // Hide next button
+}
+
 nextBtn.addEventListener("click", function() {
     const selectedChoice = document.querySelector('input[name="choice"]:checked');
 
     if (selectedChoice) {
-        const answerIndex = selectedChoice.value;
+        const answerIndex = parseInt(selectedChoice.value);
         if (answerIndex === questions[currentQuestion].answer) {
             score++;
         }
 
         currentQuestion++;
 
-        if (currentQuestion === questions.length) {
-            // Show results
-            questionEl.textContent = `
+        if (currentQuestion < questions.length) {
+            displayQuestion();
+        } else {
+            displayResults();
+        }
+    }
+});
+
+displayQuestion(); // Display the first question when the page loads
