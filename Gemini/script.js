@@ -2,7 +2,7 @@ const questions = [
     {
         question: "What is Walter White's real name?",
         choices: ["Walter Hart", "Walter White", "Bryan Cranston", "None of the above"],
-        answer: 1
+        answer: 2
     },
     {
         question: "What is the name of Walter White's partner in crime?",
