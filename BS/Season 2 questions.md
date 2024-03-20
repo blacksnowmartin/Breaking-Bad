@@ -182,3 +182,125 @@ B) He is relieved
 C) He is indifferent
 D) He is angry
 
+Level 4: Themes and Symbolism in Season 2
+What does the pink teddy bear symbolize in Season 2?
+
+A) Innocence lost
+B) Foreshadowing of tragedy (Correct)
+C) Walter's moral decline
+D) Jesse's redemption
+How does Season 2 explore the theme of addiction?
+
+A) Through Jesse's struggles with substance abuse (Correct)
+B) Through Skyler's gambling addiction
+C) Through Walter's addiction to power
+D) Through Hank's addiction to work
+What does the image of the pink teddy bear's eye represent?
+
+A) Closure
+B) Grief
+C) Foreshadowing of future events (Correct)
+D) Hope
+How does Season 2 portray the theme of consequences?
+
+A) Through the crash of the airplane (Correct)
+B) Through Walter's cancer diagnosis
+C) Through Jesse's relationship with Jane
+D) Through Hank's investigation
+What role does manipulation play in Season 2?
+
+A) Walter manipulates Jesse for personal gain (Correct)
+B) Jesse manipulates Skyler to cover up his drug business
+C) Skyler manipulates Hank to protect Walter
+D) Hank manipulates Marie to keep secrets
+How does Season 2 explore the theme of redemption?
+
+A) Through Jesse's attempts to reform (Correct)
+B) Through Walter's search for forgiveness
+C) Through Skyler's efforts to reconcile with Walter
+D) Through Hank's pursuit of justice
+What significance does the fly have in the series?
+
+A) It symbolizes purity
+B) It represents Walter's guilt
+C) It signifies contamination and decay (Correct)
+D) It foreshadows Walter's downfall
+How does Season 2 portray the theme of family?
+
+A) Through Walter's desire to provide for his family
+B) Through Skyler's efforts to protect her children
+C) Through Jesse's longing for a sense of belonging (Correct)
+D) Through Hank's loyalty to his family
+What does the color green symbolize in Season 2?
+
+A) Greed
+B) Jealousy
+C) Envy (Correct)
+D) Growth
+How does Season 2 depict the theme of identity?
+
+A) Through Walter's transformation into Heisenberg
+B) Through Jesse's struggle to define himself outside of his criminal activities (Correct)
+C) Through Skyler's search for truth about Walter
+D) Through Hank's quest to uncover Heisenberg's true identity
+Level 5: Behind the Scenes and Trivia for Season 2
+Who directed the season finale of Season 2, "ABQ"?
+
+A) Vince Gilligan
+B) Bryan Cranston
+C) Adam Bernstein (Correct)
+D) Michelle MacLaren
+Which episode of Season 2 is known for its bottle episode format?
+
+A) "4 Days Out"
+B) "Phoenix" (Correct)
+C) "ABQ"
+D) "Peekaboo"
+What is the name of the fast food chain where Gus Fring conducts his drug business?
+
+A) Pollos Hermanos (Correct)
+B) Los Pollos Locos
+C) Taco Bueno
+D) El Pollo Loco
+Who discovers the pink teddy bear's eye in the pool?
+
+A) Skyler White
+B) Walter White Jr.
+C) Jane's father (Correct)
+D) Jesse Pinkman
+What is the significance of the numbers 737 in "ABQ"?
+
+A) The flight number of the crashed plane
+B) The episode number
+C) The time of the crash (Correct)
+D) The number of casualties
+Which character becomes a series regular in Season 2?
+
+A) Saul Goodman
+B) Gustavo Fring
+C) Mike Ehrmantraut (Correct)
+D) Jane Margolis
+Who is the cinematographer for Season 2 of Breaking Bad?
+
+A) Michael Slovis (Correct)
+B) Vince Gilligan
+C) Mark Johnson
+D) Bryan Cranston
+What award did Breaking Bad win for its second season?
+
+A) Emmy Award for Outstanding Drama Series (Correct)
+B) Golden Globe for Best Drama Series
+C) Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series
+D) Writers Guild of America Award for Best Drama Series
+Which episode of Season 2 features a tense confrontation between Hank and Tuco's cousins?
+
+A) "Grilled"
+B) "Better Call Saul"
+C) "Breakage" (Correct)
+D) "Negro y Azul"
+What is the name of the RV used by Walter and Jesse in Season 2?
+
+A) The Crystal Ship (Correct)
+B) The Blue Bullet
+C) The Meth-Mobile
+D) The Cooking Camper
