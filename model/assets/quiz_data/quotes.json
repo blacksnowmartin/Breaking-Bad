@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Which movie features the quote: 'Here's looking at you, kid.'?",
+            "options": [
+                "Gone with the Wind",
+                "Casablanca",
+                "The Godfather",
+                "Citizen Kane"
+            ],
+            "answer": "Casablanca"
+        },
+        {
+            "question": "In which film does the character say: 'May the Force be with you.'?",
+            "options": [
+                "Star Wars: A New Hope",
+                "The Matrix",
+                "Blade Runner",
+                "E.T. the Extra-Terrestrial"
+            ],
+            "answer": "Star Wars: A New Hope"
+        },
+        {
+            "question": "Which movie features the line: 'There's no place like home.'?",
+            "options": [
+                "The Wizard of Oz",
+                "Gone with the Wind",
+                "Citizen Kane",
+                "Titanic"
+            ],
+            "answer": "The Wizard of Oz"
+        },
+        {
+            "question": "In 'The Shawshank Redemption,' what does Andy Dufresne famously say about hope?",
+            "options": [
+                "Hope is a dangerous thing.",
+                "Hope is what keeps us alive.",
+                "Hope is a good thing, maybe the best of things.",
+                "Hope is for the weak."
+            ],
+            "answer": "Hope is a good thing, maybe the best of things."
+        },
+        {
+            "question": "Which movie includes the quote: 'There's no crying in baseball!'?",
+            "options": [
+                "Moneyball",
+                "Field of Dreams",
+                "A League of Their Own",
+                "Bull Durham"
+            ],
+            "answer": "A League of Their Own"
+        },
+        {
+            "question": "In 'Forrest Gump,' what does Forrest say life is like?",
+            "options": [
+                "A box of chocolates.",
+                "A puzzle.",
+                "A journey.",
+                "A rollercoaster."
+            ],
+            "answer": "A box of chocolates."
+        },
+        {
+            "question": "Which film features the quote: 'You can't handle the truth!'?",
+            "options": [
+                "A Few Good Men",
+                "Gladiator",
+                "Apollo 13",
+                "The Hunt for Red October"
+            ],
+            "answer": "A Few Good Men"
+        },
+        {
+            "question": "In 'The Godfather,' what does Don Corleone say he'll make an offer that they can't refuse about?",
+            "options": [
+                "Business deal",
+                "Wedding invitation",
+                "Movie role",
+                "Protection"
+            ],
+            "answer": "Business deal"
+        },
+        {
+            "question": "Which movie includes the line: 'Life is like a box of chocolates; you never know what you're gonna get.'?",
+            "options": [
+                "Forrest Gump",
+                "The Shawshank Redemption",
+                "Pulp Fiction",
+                "Fight Club"
+            ],
+            "answer": "Forrest Gump"
+        },
+        {
+            "question": "In 'Jerry Maguire,' what does Jerry say to his client when he is fired?",
+            "options": [
+                "Show me the money!",
+                "You complete me.",
+                "Help me help you.",
+                "You had me at hello."
+            ],
+            "answer": "Show me the money!"
+        }
+    ]
+}

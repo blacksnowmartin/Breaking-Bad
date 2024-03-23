@@ -1,0 +1,89 @@
+{
+    "questions": [
+        {
+            "question": "In which city is the majority of the film 'Casablanca' set?",
+            "options": ["Paris", "Casablanca", "Berlin", "Rome"],
+            "answer": "Casablanca"
+        },
+        {
+            "question": "Who plays the main character, Scarlett O'Hara, in 'Gone with the Wind'?",
+            "options": [
+                "Katharine Hepburn",
+                "Vivien Leigh",
+                "Bette Davis",
+                "Audrey Hepburn"
+            ],
+            "answer": "Vivien Leigh"
+        },
+        {
+            "question": "What color is Dorothy's famous pair of shoes in 'The Wizard of Oz'?",
+            "options": ["Blue", "Silver", "Ruby Red", "Yellow"],
+            "answer": "Ruby Red"
+        },
+        {
+            "question": "What is the name of Charles Foster Kane's newspaper in 'Citizen Kane'?",
+            "options": [
+                "The Times",
+                "The Chronicle",
+                "The Inquirer",
+                "The Gazette"
+            ],
+            "answer": "The Inquirer"
+        },
+        {
+            "question": "Based on the novel by John Steinbeck, who directed the film adaptation of 'The Grapes of Wrath'?",
+            "options": [
+                "Frank Capra",
+                "John Ford",
+                "Alfred Hitchcock",
+                "Billy Wilder"
+            ],
+            "answer": "John Ford"
+        },
+        {
+            "question": "What's the name of the angel who shows George Bailey what life would have been like if he had never been born?",
+            "options": ["Michael", "Gabriel", "Clarence", "Raphael"],
+            "answer": "Clarence"
+        },
+        {
+            "question": "Who won an Academy Award for Best Actress for her role in 'Roman Holiday'?",
+            "options": [
+                "Grace Kelly",
+                "Audrey Hepburn",
+                "Ingrid Bergman",
+                "Elizabeth Taylor"
+            ],
+            "answer": "Audrey Hepburn"
+        },
+        {
+            "question": "What famous line does Humphrey Bogart's character Rick say to Ilsa at the airport in the final scene of 'Casablanca'?",
+            "options": [
+                "I'll be back",
+                "Here's looking at you, kid.",
+                "May the Force be with you.",
+                "Play it again, Sam."
+            ],
+            "answer": "Here's looking at you, kid."
+        },
+        {
+            "question": "What is the name of the mysterious, sought-after object in 'The Maltese Falcon'?",
+            "options": [
+                "The Black Pearl",
+                "The Maltese Falcon",
+                "The Philosopher's Stone",
+                "The Holy Grail"
+            ],
+            "answer": "The Maltese Falcon"
+        },
+        {
+            "question": "Which actor plays the lead role of Don Lockwood in 'Singin' in the Rain'?",
+            "options": [
+                "Fred Astaire",
+                "Gene Kelly",
+                "Bing Crosby",
+                "Frank Sinatra"
+            ],
+            "answer": "Gene Kelly"
+        }
+    ]
+}
