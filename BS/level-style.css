@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background-image.jpg'); /* Specify the path to your background image */
+    background-image: url('level101.jpg'); /* Specify the path to your background image */
     background-repeat: no-repeat;
     background-size: cover; /* Cover the entire viewport */
 }
