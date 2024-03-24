@@ -8,12 +8,16 @@ Familiarize yourself with the requirements and desired features of the game.
 Research Breaking Bad trivia questions for each season.
 Decide on the technologies you'll use (HTML, CSS, JavaScript) and any additional libraries or frameworks.
 Plan the overall structure of the game and sketch out the user interface.
+
+
 Day 3-4: Start Page and Game Layout (March 23rd - March 24th)
 
 Create the HTML structure for the start page.
 Style the start page using CSS, including background images and buttons.
 Write JavaScript code to handle button clicks on the start page.
 Set up separate HTML, CSS, and JavaScript files for the game layout.
+
+
 Day 5-6: Level 1 Implementation (March 25th - March 26th)
 
 Define the questions, choices, and answers for Level 1.
