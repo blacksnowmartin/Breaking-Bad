@@ -1,3 +1,13 @@
+// Load correct and wrong sound files
+const correctSound = new Audio('correct.mp3');
+const wrongSound = new Audio('wrong.mp3');
+
+// Unlock image element
+const imageElement = document.createElement('img');
+imageElement.src = 'unlocked_image.jpg'; // Path to the unlocked image
+imageElement.alt = 'Unlocked Image';
+
+// Array of quiz questions
 const quizData = [
     {
         question: "What is the capital of France?",
@@ -51,16 +61,15 @@ const quizData = [
     }
 ];
 
-
 let currentQuestion = 0;
 let score = 0;
 
+// HTML elements
 const questionElement = document.getElementById('question');
 const choicesElement = document.getElementById('choices');
 const resultElement = document.getElementById('result');
-const correctSound = document.getElementById('correct-sound');
-const wrongSound = document.getElementById('wrong-sound');
 
+// Function to load a question
 function loadQuestion() {
     const currentQuizData = quizData[currentQuestion];
     questionElement.innerText = currentQuizData.question;
@@ -76,6 +85,7 @@ function loadQuestion() {
     });
 }
 
+// Function to check the answer
 function checkAnswer(answer) {
     const currentQuizData = quizData[currentQuestion];
     if (answer === currentQuizData.correct) {
@@ -92,16 +102,18 @@ function checkAnswer(answer) {
     }
 }
 
+// Function to show the result
 function showResult() {
     resultElement.innerText = `You scored ${score}/${quizData.length}`;
     if (score >= 6) {
         resultElement.style.color = 'green';
         resultElement.innerText += ' Congratulations!';
-        // Unlock image code here
+        document.body.appendChild(imageElement); // Append the unlocked image
     } else {
         resultElement.style.color = 'red';
         resultElement.innerText += ' Try again!';
     }
 }
 
+// Start loading the first question
 loadQuestion();
