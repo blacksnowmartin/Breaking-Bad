@@ -1,10 +1,10 @@
 // Load correct and wrong sound files
-const correctSound = new Audio('correct.mp3');
-const wrongSound = new Audio('wrong.mp3');
+const correctSound = new Audio('correct-156911.mp3');
+const wrongSound = new Audio('wrong-buzzer-6268.mp3');
 
 // Unlock image element
 const imageElement = document.createElement('img');
-imageElement.src = 'unlocked_image.jpg'; // Path to the unlocked image
+imageElement.src = 'embrace-600x480.png'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
 
 // Array of quiz questions
