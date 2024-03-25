@@ -1,6 +1,8 @@
 // Load correct and wrong sound files
 const correctSound = new Audio('correct-156911.mp3');
 const wrongSound = new Audio('wrong-buzzer-6268.mp3');
+const passSound = new Audio('congratulations.mp3')
+const failSound = new Audio('fail.mp3')
 
 // Unlock image element
 const imageElement = document.createElement('img');
@@ -108,10 +110,12 @@ function showResult() {
     if (score >= 6) {
         resultElement.style.color = 'green';
         resultElement.innerText += ' Congratulations!';
-        document.body.appendChild(imageElement); // Append the unlocked image
+        document.body.appendChild(imageElement); 
+        passSound.play()// Append the unlocked image
     } else {
         resultElement.style.color = 'red';
         resultElement.innerText += ' Try again!';
+        failSound.play()
     }
 }
 
