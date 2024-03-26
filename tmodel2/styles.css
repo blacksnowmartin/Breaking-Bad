@@ -25,3 +25,33 @@ body {
     #choices { display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 20px; }
     
     .choice { background-color: #eee; padding: 10px 20px; /* Fix the number fix */ }
+
+    /* Existing CSS styles */
+
+.choice {
+    background-color: #eee;
+    padding: 10px 20px;
+    animation-duration: 0.5s;
+}
+
+.choice.correct {
+    animation-name: flickerGreen;
+    animation-iteration-count: infinite;
+}
+
+.choice.wrong {
+    animation-name: flickerRed;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flickerGreen {
+    0% { background-color: #5cb85c; }
+    50% { background-color: #eee; }
+    100% { background-color: #5cb85c; }
+}
+
+@keyframes flickerRed {
+    0% { background-color: #d9534f; }
+    50% { background-color: #eee; }
+    100% { background-color: #d9534f; }
+}
