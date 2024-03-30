@@ -12,9 +12,9 @@ imageElement.alt = 'Unlocked Image';
 // Array of quiz questions
 const quizData = [
     {
-        question: "What is the capital of France?",
-        choices: ["Paris", "London", "Berlin", "Rome"],
-        correct: "Paris"
+        question: "What is the name of the protagonist in Breaking Bad?",
+        choices: ["Jesse Pinkman", "Hank Schrader", "Walter White", "Saul Goodman"],
+        correct: "Walter White"
     },
     {
         question: "What is the largest planet in our solar system?",
