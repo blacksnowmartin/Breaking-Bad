@@ -1,8 +1,8 @@
 // Load correct and wrong sound files
-const correctSound = new Audio('correct-156911.mp3');
-const wrongSound = new Audio('wrong-buzzer-6268.mp3');
-const passSound = new Audio('congratulations.mp3')
-const failSound = new Audio('fail.mp3')
+const correctSound = new Audio('audio/correct-156911.mp3');
+const wrongSound = new Audio('audio/wrong-buzzer-6268.mp3');
+const passSound = new Audio('audio/congratulations.mp3')
+const failSound = new Audio('audio/fail.mp3')
 
 // Unlock image element
 const imageElement = document.createElement('img');
