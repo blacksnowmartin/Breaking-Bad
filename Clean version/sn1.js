@@ -17,51 +17,52 @@ const quizData = [
         correct: "Walter White"
     },
     {
-        question: "What is the largest planet in our solar system?",
-        choices: ["Mars", "Saturn", "Jupiter", "Neptune"],
-        correct: "Jupiter"
+        question: "What is Walter White's profession at the beginning of the series?",
+        choices: ["Teacher", "Lawyer", "Doctor", "Police officer"],
+        correct: "Teacher"
     },
     {
-        question: "Which country is known as the Land of the Rising Sun?",
-        choices: ["China", "Japan", "India", "South Korea"],
-        correct: "Japan"
+        question: "What is the name of Walter's wife?",
+        choices: ["Jane", "Marie", "Skyler", "Wendy"],
+        correct: "Skyler"
     },
     {
-        question: "Who painted the Mona Lisa?",
-        choices: ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
-        correct: "Leonardo da Vinci"
+        question: "Who is Jesse Pinkman's former business partner?",
+        choices: ["Tuco Salamanca", "Skinny Pete", "Krazy-8", "Walter White"],
+        correct: "Walter White"
     },
     {
-        question: "What is the chemical symbol for water?",
-        choices: ["H2O", "CO2", "O2", "NaCl"],
-        correct: "H2O"
+        question: "Where is Breaking Bad primarily set?",
+        choices: ["Los Angeles", "Miami", "Albuquerque", "Houston"],
+        correct: "Albuquerque"
     },
     {
-        question: "Which planet is known as the Red Planet?",
-        choices: ["Venus", "Mars", "Mercury", "Pluto"],
-        correct: "Mars"
+        question: "What is the name of the car wash Walter buys?",
+        choices: ["A1A Car Wash", "Crystal Clear Car Wash", "Pinkman's Car Wash", "Bogdan's Car Wash"],
+        correct: "Bogdan's Car Wash"
     },
     {
-        question: "Who wrote 'Romeo and Juliet'?",
-        choices: ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
-        correct: "William Shakespeare"
+        question: "What is the nickname of the blue-colored crystal meth Walter and Jesse produce?",
+        choices: ["Blue Magic", "Blue Ice", "Blue Sky", "Blue Dream"],
+        correct: "Blue Sky"
     },
     {
-        question: "Which mammal can fly?",
-        choices: ["Bat", "Mouse", "Rat", "Cat"],
-        correct: "Bat"
+        question: "Who is the DEA agent investigating the meth trade?",
+        choices: ["Saul Goodman", "Gustavo Fring", "Hank Schrader", "Mike Ehrmantraut"],
+        correct: "Hank Schrader"
     },
     {
-        question: "What is the tallest mammal?",
-        choices: ["Elephant", "Giraffe", "Horse", "Kangaroo"],
-        correct: "Giraffe"
+        question: "What is the name of Walter's son who has cerebral palsy?",
+        choices: ["Flynn", "Skyler Jr.", "Jesse", "Mike"],
+        correct: "Flynn"
     },
     {
-        question: "Which gas is most abundant in Earth's atmosphere?",
-        choices: ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
-        correct: "Nitrogen"
+        question: "What is the name of the high school where Walter teaches?",
+        choices: ["East High", "West High", "South High", "Albuquerque High"],
+        correct: "Albuquerque High"
     }
 ];
+
 
 let currentQuestion = 0;
 let score = 0;
