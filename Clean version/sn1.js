@@ -6,7 +6,7 @@ const failSound = new Audio('audio/fail.mp3')
 
 // Unlock image element
 const imageElement = document.createElement('img');
-imageElement.src = 'embrace-600x480.png'; // Path to the unlocked image
+imageElement.src = 'images/season1.jpg'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
 
 // Array of quiz questions
