@@ -8,6 +8,7 @@ const failSound = new Audio('audio/fail.mp3')
 const imageElement = document.createElement('img');
 imageElement.src = 'images/season1.jpg'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
+imageElement.style.maxWidth = '650px';
 
 // Array of quiz questions
 const quizData = [
@@ -29,7 +30,7 @@ const quizData = [
     {
         question: "Who is Jesse Pinkman's former business partner?",
         choices: ["Tuco Salamanca", "Skinny Pete", "Krazy-8", "Walter White"],
-        correct: "Walter White"
+        correct: "Krazy-8"
     },
     {
         question: "Where is Breaking Bad primarily set?",
@@ -44,7 +45,7 @@ const quizData = [
     {
         question: "What is the nickname of the blue-colored crystal meth Walter and Jesse produce?",
         choices: ["Blue Magic", "Blue Ice", "Blue Sky", "Blue Dream"],
-        correct: "Blue Sky"
+        correct: "Blue Ice"
     },
     {
         question: "Who is the DEA agent investigating the meth trade?",
