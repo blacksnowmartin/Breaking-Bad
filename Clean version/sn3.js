@@ -12,57 +12,58 @@ imageElement.style.maxWidth = '650px';
 
 // Array of quiz questions
 const quizData = [
-    {
-        question: "What is the name of the protagonist in Breaking Bad?",
-        choices: ["Jesse Pinkman", "Hank Schrader", "Walter White", "Saul Goodman"],
-        correct: "Walter White"
-    },
-    {
-        question: "What is Walter White's profession at the beginning of the series?",
-        choices: ["Teacher", "Lawyer", "Doctor", "Police officer"],
-        correct: "Teacher"
-    },
-    {
-        question: "What is the name of Walter's wife?",
-        choices: ["Jane", "Marie", "Skyler", "Wendy"],
-        correct: "Skyler"
-    },
-    {
-        question: "Who is Jesse Pinkman's former business partner?",
-        choices: ["Tuco Salamanca", "Skinny Pete", "Krazy-8", "Walter White"],
-        correct: "Krazy-8"
-    },
-    {
-        question: "Where is Breaking Bad primarily set?",
-        choices: ["Los Angeles", "Miami", "Albuquerque", "Houston"],
-        correct: "Albuquerque"
-    },
-    {
-        question: "What is the name of the car wash Walter buys?",
-        choices: ["A1A Car Wash", "Crystal Clear Car Wash", "Pinkman's Car Wash", "Bogdan's Car Wash"],
-        correct: "Bogdan's Car Wash"
-    },
-    {
-        question: "What is the nickname of the blue-colored crystal meth Walter and Jesse produce?",
-        choices: ["Blue Magic", "Blue Ice", "Blue Sky", "Blue Dream"],
-        correct: "Blue Ice"
-    },
-    {
-        question: "Who is the DEA agent investigating the meth trade?",
-        choices: ["Saul Goodman", "Gustavo Fring", "Hank Schrader", "Mike Ehrmantraut"],
-        correct: "Hank Schrader"
-    },
-    {
-        question: "What is the name of Walter's son who has cerebral palsy?",
-        choices: ["Flynn", "Skyler Jr.", "Jesse", "Mike"],
-        correct: "Flynn"
-    },
-    {
-        question: "What is the name of the high school where Walter teaches?",
-        choices: ["East High", "West High", "South High", "Albuquerque High"],
-        correct: "Albuquerque High"
-    }
-];
+        {
+            question: "What nickname does Hank Schrader give to Gale Boetticher?",
+            choices: ["Genius", "Artist", "Chemist", "Brainiac"],
+            correct: "Genius"
+        },
+        {
+            question: "What is the name of the new drug dealer introduced in Season 3?",
+            choices: ["Gus Fring", "Hector Salamanca", "Tuco Salamanca's cousins", "Hector Salamanca's nephews"],
+            correct: "Hector Salamanca's nephews"
+        },
+        {
+            question: "Who is appointed as the manager of the Los Pollos Hermanos franchise?",
+            choices: ["Jesse Pinkman", "Saul Goodman", "Gustavo Fring", "Mike Ehrmantraut"],
+            correct: "Gustavo Fring"
+        },
+        {
+            question: "What does Walter White buy for his son's 16th birthday?",
+            choices: ["A car wash", "A Pontiac Aztek", "A Dodge Challenger", "A Rolex watch"],
+            correct: "A Dodge Challenger"
+        },
+        {
+            question: "How does Gus Fring convince Walter to continue cooking meth?",
+            choices: ["By threatening his family", "By offering him a partnership", "By blackmailing him", "By paying him a large sum of money"],
+            correct: "By offering him a partnership"
+        },
+        {
+            question: "Who becomes the main distributor of Walter and Jesse's meth?",
+            choices: ["Krazy-8", "Tuco Salamanca", "Saul Goodman", "Gustavo Fring"],
+            correct: "Gustavo Fring"
+        },
+        {
+            question: "What does Hank Schrader find hidden in Gale Boetticher's apartment?",
+            choices: ["A map of Walter White's house", "A recording of Walter confessing", "A notebook with lab notes", "A gun"],
+            correct: "A notebook with lab notes"
+        },
+        {
+            question: "Who is the first person to discover Walter's secret identity as Heisenberg?",
+            choices: ["Jesse Pinkman", "Hank Schrader", "Gustavo Fring", "Skyler White"],
+            correct: "Skyler White"
+        },
+        {
+            question: "What causes the rift between Jesse Pinkman and Walter White in Season 3?",
+            choices: ["Jesse's addiction issues", "Walter's manipulation", "Gus Fring's interference", "Skyler's disapproval"],
+            correct: "Walter's manipulation"
+        },
+        {
+            question: "What event leads to the DEA raiding the industrial laundry where the superlab is located?",
+            choices: ["A tip-off from an informant", "A fire at the superlab", "An anonymous call reporting suspicious activity", "Hank's investigation into Gus Fring"],
+            correct: "An anonymous call reporting suspicious activity"
+        }
+    ];
+    
 
 
 let currentQuestion = 0;
