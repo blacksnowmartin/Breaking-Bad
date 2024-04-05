@@ -6,7 +6,7 @@ const failSound = new Audio('audio/fail.mp3')
 
 // Unlock image element
 const imageElement = document.createElement('img');
-imageElement.src = 'images/season3.jpg'; // Path to the unlocked image
+imageElement.src = 'images/season 3.jpg'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
 imageElement.style.maxWidth = '650px';
 
