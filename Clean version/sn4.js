@@ -12,57 +12,57 @@ imageElement.style.maxWidth = '650px';
 
 // Array of quiz questions
 const quizData = [
-        {
-            question: "What nickname does Hank Schrader give to Gale Boetticher?",
-            choices: ["Genius", "Artist", "Chemist", "Brainiac"],
-            correct: "Genius"
-        },
-        {
-            question: "What is the name of the new drug dealer introduced in Season 3?",
-            choices: ["Gus Fring", "Hector Salamanca", "Tuco Salamanca's cousins", "Hector Salamanca's nephews"],
-            correct: "Hector Salamanca's nephews"
-        },
-        {
-            question: "Who is appointed as the manager of the Los Pollos Hermanos franchise?",
-            choices: ["Jesse Pinkman", "Saul Goodman", "Gustavo Fring", "Mike Ehrmantraut"],
-            correct: "Gustavo Fring"
-        },
-        {
-            question: "What does Walter White buy for his son's 16th birthday?",
-            choices: ["A car wash", "A Pontiac Aztek", "A Dodge Challenger", "A Rolex watch"],
-            correct: "A Dodge Challenger"
-        },
-        {
-            question: "How does Gus Fring convince Walter to continue cooking meth?",
-            choices: ["By threatening his family", "By offering him a partnership", "By blackmailing him", "By paying him a large sum of money"],
-            correct: "By offering him a partnership"
-        },
-        {
-            question: "Who becomes the main distributor of Walter and Jesse's meth?",
-            choices: ["Krazy-8", "Tuco Salamanca", "Saul Goodman", "Gustavo Fring"],
-            correct: "Gustavo Fring"
-        },
-        {
-            question: "What does Hank Schrader find hidden in Gale Boetticher's apartment?",
-            choices: ["A map of Walter White's house", "A recording of Walter confessing", "A notebook with lab notes", "A gun"],
-            correct: "A notebook with lab notes"
-        },
-        {
-            question: "Who is the first person to discover Walter's secret identity as Heisenberg?",
-            choices: ["Jesse Pinkman", "Hank Schrader", "Gustavo Fring", "Skyler White"],
-            correct: "Skyler White"
-        },
-        {
-            question: "What causes the rift between Jesse Pinkman and Walter White in Season 3?",
-            choices: ["Jesse's addiction issues", "Walter's manipulation", "Gus Fring's interference", "Skyler's disapproval"],
-            correct: "Walter's manipulation"
-        },
-        {
-            question: "What event leads to the DEA raiding the industrial laundry where the superlab is located?",
-            choices: ["A tip-off from an informant", "A fire at the superlab", "An anonymous call reporting suspicious activity", "Hank's investigation into Gus Fring"],
-            correct: "An anonymous call reporting suspicious activity"
-        }
-    ];
+    {
+        question: "What is the name of the new superlab built for Walter and Jesse?",
+        choices: ["The Blue Room", "The Crystal Palace", "The Superlab", "The Meth Dungeon"],
+        correct: "The Superlab"
+    },
+    {
+        question: "Who becomes Gus Fring's new right-hand man?",
+        choices: ["Mike Ehrmantraut", "Jesse Pinkman", "Tyrus Kitt", "Saul Goodman"],
+        correct: "Mike Ehrmantraut"
+    },
+    {
+        question: "What new method of distribution does Walter introduce in Season 4?",
+        choices: ["Selling directly to street dealers", "Selling online", "Using a network of fast-food restaurants", "Selling at music festivals"],
+        correct: "Using a network of fast-food restaurants"
+    },
+    {
+        question: "What is the name of the exterminator company that Walter uses as a front for meth production?",
+        choices: ["A1 Pest Control", "Vamonos Pest", "Bug Off Exterminators", "No More Pests Inc."],
+        correct: "Vamonos Pest"
+    },
+    {
+        question: "How does Walter manipulate Jesse into helping him eliminate Gus Fring?",
+        choices: ["By appealing to Jesse's sense of loyalty", "By threatening Jesse's life", "By convincing Jesse that Gus poisoned Brock", "By promising Jesse a larger share of the profits"],
+        correct: "By convincing Jesse that Gus poisoned Brock"
+    },
+    {
+        question: "What does Walter use to kill Gus Fring?",
+        choices: ["Poisoned ricin", "A car bomb", "A gun", "Strangulation"],
+        correct: "A gun"
+    },
+    {
+        question: "Who ultimately kills Gus Fring's henchman, Tyrus Kitt?",
+        choices: ["Walter White", "Mike Ehrmantraut", "Jesse Pinkman", "Saul Goodman"],
+        correct: "Mike Ehrmantraut"
+    },
+    {
+        question: "What is the name of the cartel leader who orders an attack on Gus Fring?",
+        choices: ["Tuco Salamanca", "Hector Salamanca", "Don Eladio", "Marco Salamanca"],
+        correct: "Don Eladio"
+    },
+    {
+        question: "How does Skyler get involved in Walt's meth operation in Season 4?",
+        choices: ["She becomes his cook", "She starts laundering money for him", "She becomes his distributor", "She becomes his lawyer"],
+        correct: "She starts laundering money for him"
+    },
+    {
+        question: "What prompts Walter to finally kill Gustavo Fring?",
+        choices: ["Gus threatens his family", "Gus discovers Walter's plan", "Gus visits Hector Salamanca in the nursing home", "Gus tries to kill him at Gale's apartment"],
+        correct: "Gus visits Hector Salamanca in the nursing home"
+    }
+];
     
 
 
