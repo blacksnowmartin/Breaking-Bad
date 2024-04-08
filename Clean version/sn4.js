@@ -107,6 +107,8 @@ function checkAnswer(answer) {
     }
 }
 
+
+
 // Function to show the result
 function showResult() {
     resultElement.innerText = `You scored ${score}/${quizData.length}`;
@@ -114,13 +116,17 @@ function showResult() {
         resultElement.style.color = 'green';
         resultElement.innerText += ' Congratulations!';
         document.body.appendChild(imageElement); 
-        passSound.play()// Append the unlocked image
+        passSound.play(); // Play pass sound
+        // Add button to proceed to the next level
+        const nextLevelButton = document.createElement('button');
+        nextLevelButton.innerText = 'Proceed to Next Level';
+        nextLevelButton.addEventListener('click', () => {
+            window.location.href = 'sn5.html'; // Redirect to next level
+        });
+        resultElement.appendChild(nextLevelButton);
     } else {
         resultElement.style.color = 'red';
         resultElement.innerText += ' Try again!';
-        failSound.play()
+        failSound.play(); // Play fail sound
     }
 }
-
-// Start loading the first question
-loadQuestion();
