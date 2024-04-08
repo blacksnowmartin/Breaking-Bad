@@ -10,6 +10,8 @@ imageElement.src = 'images/season 5.jpg'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
 imageElement.style.maxWidth = '650px';
 
+//A logic to open the next level
+
 const quizData = [
     {
         question: "How does Walter White initially evade capture at the start of Season 5?",
