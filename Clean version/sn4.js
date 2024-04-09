@@ -115,6 +115,13 @@ function showResult() {
         resultElement.innerText += ' Congratulations!';
         document.body.appendChild(imageElement); 
         passSound.play()// Append the unlocked image
+
+        const nextLevelButton = document.createElement('button');
+        nextLevelButton.innerText = 'Proceed to Next Level';
+        nextLevelButton.addEventListener('click', () => {
+            window.location.href = 'sn5.html'; // Redirect to next level
+        });
+        resultElement.appendChild(nextLevelButton);
     } else {
         resultElement.style.color = 'red';
         resultElement.innerText += ' Try again!';
