@@ -23,7 +23,7 @@ const quizData = [
             correct: "Hector Salamanca's nephews"
         },
         {
-            question: "Who is appointed as the manager of the Los Pollos Hermanos franchise?",
+            question: "Who is the manager of the Los Pollos Hermanos franchise?",
             choices: ["Jesse Pinkman", "Saul Goodman", "Gustavo Fring", "Mike Ehrmantraut"],
             correct: "Gustavo Fring"
         },

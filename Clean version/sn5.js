@@ -39,9 +39,9 @@ const quizData = [
         correct: "He turns himself in"
     },
     {
-        question: "Who becomes Walter's new business partner after Gus Fring's death?",
+        question: "Who becomes Walter's new meth distributor after Gus Fring's death?",
         choices: ["Mike Ehrmantraut", "Todd Alquist", "Saul Goodman", "Lydia Rodarte-Quayle"],
-        correct: "Todd Alquist"
+        correct: "Lydia Rodarte-Quayle"
     },
     {
         question: "To throw suspicion off himself, what does Walter plant in Hank's office?",

@@ -39,7 +39,7 @@ const quizData = [
     },
     {
         question: "What is the name of the car wash Walter buys?",
-        choices: ["A1A Car Wash", "Crystal Clear Car Wash", "Pinkman's Car Wash", "Bogdan's Car Wash"],
+        choices: ["El Camino", "Crystal Clear Car Wash", "Pinkman's Car Wash", "Bogdan's Car Wash"],
         correct: "Bogdan's Car Wash"
     },
     {

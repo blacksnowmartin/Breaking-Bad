@@ -8,6 +8,8 @@ const failSound = new Audio('audio/fail.mp3')
 const imageElement = document.createElement('img');
 imageElement.src = 'images/season 2.jpg'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
+imageElement.style.maxWidth = '650px';
+
 
 // Array of quiz questions
 const quizData = [
@@ -57,9 +59,9 @@ const quizData = [
         correct: "Overdose"
     },
     {
-        question: "Who discovers Jane's death?",
+        question: "Who discovers Jane's death first?",
         choices: ["Walter White", "Jesse Pinkman", "Skyler White", "Saul Goodman"],
-        correct: "Jesse Pinkman"
+        correct: "Walter White"
     }
 ];
 
