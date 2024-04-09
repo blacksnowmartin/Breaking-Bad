@@ -129,6 +129,13 @@ resultElement.appendChild(nextLevelButton);
         resultElement.style.color = 'red';
         resultElement.innerText += ' Try again!';
         failSound.play()
+
+        const nextLevelButton = document.createElement('button');
+        nextLevelButton.innerText = 'Try again';
+        nextLevelButton.addEventListener('click', () => {
+            window.location.href = 'sn2.html'; // Redirect to next level
+        });
+        resultElement.appendChild(nextLevelButton);
     }
 }
 
