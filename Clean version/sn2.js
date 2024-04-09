@@ -114,6 +114,7 @@ function showResult() {
         resultElement.innerText += ' Congratulations!';
         document.body.appendChild(imageElement); 
         passSound.play()// Append the unlocked image
+
         const nextLevelButton = document.createElement('button');
         nextLevelButton.innerText = 'Proceed to Next Level';
         nextLevelButton.addEventListener('click', () => {
@@ -124,6 +125,13 @@ function showResult() {
         resultElement.style.color = 'red';
         resultElement.innerText += ' Try again!';
         failSound.play()
+        
+        const nextLevelButton = document.createElement('button');
+        nextLevelButton.innerText = 'Try again';
+        nextLevelButton.addEventListener('click', () => {
+            window.location.href = 'sn2.html'; // Redirect to next level
+        });
+        resultElement.appendChild(nextLevelButton);
     }
 }
 
