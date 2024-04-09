@@ -121,7 +121,7 @@ function showResult() {
 const nextLevelButton = document.createElement('button');
 nextLevelButton.innerText = 'Unlock the Completion Grand Prize';
 nextLevelButton.addEventListener('click', () => {
-    window.location.href = 'sn5.html'; // Redirect to next level
+    window.location.href = 'grandprize-video.html'; // Redirect to next level
 });
 resultElement.appendChild(nextLevelButton);
 
