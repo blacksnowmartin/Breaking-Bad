@@ -139,3 +139,5 @@ function showResult() {
 
 // Start loading the first question
 loadQuestion();
+
+document.getElementById('question-number').innerText = currentQuestion + 1;
