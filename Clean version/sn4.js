@@ -10,6 +10,14 @@ imageElement.src = 'images/season 4.jpg'; // Path to the unlocked image
 imageElement.alt = 'Unlocked Image';
 imageElement.style.maxWidth = '650px';
 
+// Add a home button
+const homeButton = document.createElement('button');
+homeButton.innerText = 'Quit';
+homeButton.addEventListener('click', () => {
+    window.location.href = 'start.html';
+});
+document.body.appendChild(homeButton);
+
 // Array of quiz questions
 const quizData = [
     {
