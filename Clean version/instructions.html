@@ -10,8 +10,24 @@
     <div id="header">
       <h1  style="font-family: 'Comic Sans MS', cursive, sans-serif; color: rgb(177, 202, 177);">Instructions</h1>  </div>
   </div>
+<div id="instructions"></div>
+<p></p>
+<script>
+  var text = document.getElementById("instructions");
+  var i = 0;
+  var txt = 'Welcome to the Breaking Bad Trivia Game! Test your knowledge of the hit TV series Breaking Bad by answering a series of trivia questions. See if you can score enough points to unlock images and proceed to the next level!';
+  var speed = 50;
 
-  <div id="button-container">
+  function typeWriter() {
+    if (i < txt.length) {
+      text.innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  typeWriter();
+</script>
+<div id="button-container">
     <button id="quit-button"><a href="start.html">Quit</a></button>
   </div>
 
