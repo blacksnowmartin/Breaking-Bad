@@ -1,8 +1,10 @@
+//Improved Quiz Application Code
+
 // Load correct and wrong sound files
 const correctSound = new Audio('correct-156911.mp3');
 const wrongSound = new Audio('wrong-buzzer-6268.mp3');
-const passSound = new Audio('congratulations.mp3')
-const failSound = new Audio('fail.mp3')
+const passSound = new Audio('congratulations.mp3');
+const failSound = new Audio('fail.mp3');
 
 // Unlock image element
 const imageElement = document.createElement('img');
@@ -80,9 +82,7 @@ function loadQuestion() {
         const choiceElement = document.createElement('div');
         choiceElement.innerText = choice;
         choiceElement.classList.add('choice');
-        choiceElement.addEventListener('click', () => {
-            checkAnswer(choice);
-        });
+        choiceElement.addEventListener('click', () => checkAnswer(choice));
         choicesElement.appendChild(choiceElement);
     });
 }
@@ -90,33 +90,17 @@ function loadQuestion() {
 // Function to check the answer
 function checkAnswer(answer) {
     const currentQuizData = quizData[currentQuestion];
-    if (answer === currentQuizData.correct) {
-        score++;
-        correctSound.play();
-    } else {
-        wrongSound.play();
-    }
+    answer === currentQuizData.correct ? (score++, correctSound.play()) : wrongSound.play();
     currentQuestion++;
-    if (currentQuestion < quizData.length) {
-        loadQuestion();
-    } else {
-        showResult();
-    }
+    currentQuestion < quizData.length ? loadQuestion() : showResult();
 }
 
 // Function to show the result
 function showResult() {
     resultElement.innerText = `You scored ${score}/${quizData.length}`;
-    if (score >= 6) {
-        resultElement.style.color = 'green';
-        resultElement.innerText += ' Congratulations!';
-        document.body.appendChild(imageElement); 
-        passSound.play()// Append the unlocked image
-    } else {
-        resultElement.style.color = 'red';
-        resultElement.innerText += ' Try again!';
-        failSound.play()
-    }
+    resultElement.style.color = score >= 6 ? 'green' : 'red';
+    resultElement.innerText += score >= 6 ? ' Congratulations!' : ' Try again!';
+    score >= 6 ? (document.body.appendChild(imageElement), passSound.play()) : failSound.play();
 }
 
 // Start loading the first question
