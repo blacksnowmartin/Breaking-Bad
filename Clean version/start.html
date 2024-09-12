@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breaking Bad Quiz - Start Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="start.css">
 </head>
-<body>
-    <div class="container">
-        <h1 style="font-family: 'Comic Sans MS', cursive, sans-serif; color: green; text-align: center;">Breaking Bad Quiz</h1>
-        <div class="options">
-            <button id="new-game-btn">Start New Game</button>
-            <button id="instructions-btn">Instructions</button>
-            <button id="about-developer-btn">About Developer</button>
+<body class="bg-dark text-light">
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="text-center">
+            <h1 class="display-4 mb-4" style="font-family: 'Comic Sans MS', cursive, sans-serif; color: #00ff00;">Breaking Bad Quiz</h1>
+            <div class="d-grid gap-3 col-md-6 mx-auto">
+                <button id="new-game-btn" class="btn btn-success btn-lg">Start New Game</button>
+                <button id="instructions-btn" class="btn btn-info btn-lg">Instructions</button>
+                <button id="about-developer-btn" class="btn btn-warning btn-lg">About Developer</button>
+            </div>
         </div>
-
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="start.js"></script>
 </body>
 </html>

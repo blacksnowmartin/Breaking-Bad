@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Instructions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('images/instructions.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
-<body style="background-image: url('images/instructions.jpg'); background-repeat: no-repeat; background-size: cover;">
-  <div id="quiz-container">
-    <div id="header">
-      <h1  style="font-family: 'Comic Sans MS', cursive, sans-serif; color: rgb(177, 202, 177);">Instructions</h1>  </div>
-  </div>
-<div id="instructions"></div>
-<p></p>
-<style>
-  #instructions {
-    color: #00ffb3;
-    font-weight: bold;
-  }
-</style>
-<script>
-  var text = document.getElementById("instructions");
-  var i = 0;
-  var txt = 'Welcome to the Breaking Bad Trivia Game! Test your knowledge of the hit TV series Breaking Bad by answering a series of trivia questions. See if you can score enough points to unlock images and proceed to the next level! And also be sure to watch out for the cops! By doing so safely and correctly, you will be able also to unlock the grandprize of the series. Good luck!';
-  var speed = 50;
+<body class="text-light">
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="bg-dark bg-opacity-75 p-5 rounded-3">
+            <h1 class="display-4 mb-4 text-center" style="font-family: 'Comic Sans MS', cursive, sans-serif; color: rgb(177, 202, 177);">Instructions</h1>
+            <div id="instructions" class="lead"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var text = document.getElementById("instructions");
+        var i = 0;
+        var txt = 'Welcome to the Breaking Bad Trivia Game! Test your knowledge of the hit TV series Breaking Bad by answering a series of trivia questions. See if you can score enough points to unlock images and proceed to the next level! And also be sure to watch out for the cops! By doing so safely and correctly, you will be able also to unlock the grandprize of the series. Good luck!';
+        var speed = 50;
 
-  function typeWriter() {
-    if (i < txt.length) {
-      text.innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-  typeWriter();
-        // A function that simulates a typewriter effect by gradually displaying the text character by character.
-      // It takes no parameters and does not return any value.
-</script>
-<div id="button-container">
-    <button id="quit-button"><a href="start.html">Quit</a></button>
-  </div>
+        function typeWriter() {
+            if (i < txt.length) {
+                text.innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
 
-
-  <p></p>
+        typeWriter();
+    </script>
+</body>
 </html>
